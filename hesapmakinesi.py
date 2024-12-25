@@ -27,8 +27,6 @@ def bolme():
 
 pencere = tk.Tk()
 pencere.title('E.Z Hesap Makinesi')
-ekrangenis=pencere.winfo_screenwidth()//2-160
-ekranyuksek=pencere.winfo_screenheight()//2-150
 pencere.minsize(450,600)
 
 sonuc = tk.Entry(pencere,font=5,width=8)
